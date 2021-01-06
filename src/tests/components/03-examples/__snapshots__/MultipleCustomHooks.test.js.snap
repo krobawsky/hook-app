@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en <MultipleCustomHooks /> debe de mostar la informacion 1`] = `
+<div>
+  <h1>
+    Braking Bad
+  </h1>
+  <hr />
+  <blockquote
+    className="blockquote text-right"
+  >
+    <p
+      className="mb-0 text-right"
+    >
+      Hi
+    </p>
+    <footer
+      className="blockquote-footer"
+    >
+      Ricardo
+    </footer>
+  </blockquote>
+  <button
+    className="btn btn-primary"
+    onClick={[Function]}
+  >
+    Siguiente
+  </button>
+</div>
+`;
+
+exports[`Pruebas en <MultipleCustomHooks /> debe mostrarse correctamente 1`] = `
+<div>
+  <h1>
+    Braking Bad
+  </h1>
+  <hr />
+  <div
+    className="alert alert-info text-center"
+  >
+    Loading...
+  </div>
+  <button
+    className="btn btn-primary"
+    onClick={[Function]}
+  >
+    Siguiente
+  </button>
+</div>
+`;
